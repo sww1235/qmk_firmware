@@ -1,6 +1,6 @@
 # Row Staggered Split Keyboard - Left Hand
 
-This is a split keyboard that is intended to help make the split transition as
+This is the left side of a split keyboard that is intended to help make the split transition as
 easy as possible for users used to typing on traditional row-staggered QWERTY
 keyboards.
 
@@ -21,17 +21,14 @@ qmk doctor
 # Lint configuration files
 
 qmk lint -kb row_staggered_split/left_hand -km default
-qmk lint -kb row_staggered_split/right_hand -km default
 
 # Compile keyboard firmware
 # Don't have to specify directory if already inside it
 
 qmk compile -kb row_staggered_split/left_hand -km default
-qmk compile -kb row_staggered_split/right_hand -km default
 
 # Flash keyboard configuration
 qmk flash -kb row_staggered_split/left_hand -km default
-qmk flash -kb row_staggered_split/right_hand -km default
 
 
 ```
