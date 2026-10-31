@@ -1,0 +1,7 @@
+{
+    "manufacturer": "Stephen Walker-Weinshenker",
+    "maintainer": "sww1235",
+    "development_board": "kb2040",
+    "diode_direction": "ROW2COL",
+    "url": "https://github.com/sww1235/row_staggered_split_keyboard"
+}
