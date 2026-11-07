@@ -19,7 +19,7 @@
 	},
 	"ws2812": {
 		"driver": "vendor",
-	"pin": "GP2"
+		"pin": "GP2"
 	},
 	"rgb_matrix": {
 		"driver": "ws2812",
